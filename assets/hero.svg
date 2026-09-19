@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 836" width="1200" height="836" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Jseongwon system field map">
+<defs>
+<filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="softglow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="9"/></filter>
+<linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#a855f7" stop-opacity="0.9"/><stop offset="45%" stop-color="#ec4899" stop-opacity="0.5"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/><stop offset="50%" stop-color="#22d3ee" stop-opacity="0.85"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+</defs>
+<style>.breathe{animation:br 3.6s ease-in-out infinite}@keyframes br{0%,100%{opacity:.30}50%{opacity:.85}}.ring{animation:rg 3.4s ease-out infinite}@keyframes rg{0%{r:30px;opacity:.55}100%{r:62px;opacity:0}}.scan{animation:sc 5.5s linear infinite}@keyframes sc{0%{transform:translateX(-240px)}100%{transform:translateX(1180px)}}.blink{animation:bk 2s step-end infinite}@keyframes bk{0%,60%{opacity:1}61%,100%{opacity:.25}}@media (prefers-reduced-motion:reduce){.breathe,.ring,.scan,.blink{animation:none}}</style>
+<rect width="1200" height="836" fill="#05060a"/>
+<rect x="8" y="8" width="1184" height="820" rx="6" fill="none" stroke="#1c2035"/>
+<text x="30" y="38" font-size="8" fill="#4e5570" font-weight="500" text-anchor="start" letter-spacing="0.12em">JSEONGWON / SYSTEM FIELD MAP / BACKEND · PLATFORM</text>
+<text x="1170" y="38" font-size="8" fill="#4e5570" font-weight="400" text-anchor="end" letter-spacing="0.12em">137 REPOS · GO + K8S · 2026</text>
+<text x="30" y="86" font-size="25" fill="#ffffff" font-weight="700" text-anchor="0.02em" letter-spacing="0.12em">BUILDING PRODUCT PLATFORMS</text>
+<text x="30" y="114" font-size="25" fill="#fbbf24" font-weight="700" text-anchor="0.02em" letter-spacing="0.12em">ON A ZERO-COST CLOUD</text>
+<text x="30" y="136" font-size="8" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">GO · CLEAN + HEXAGONAL · KUBERNETES · TRAEFIK · CERT-MANAGER · OCI FREE TIER</text>
+<text x="1170" y="96" font-size="8" fill="#4e5570" font-weight="400" text-anchor="end" letter-spacing="0.12em">FOCUS</text>
+<text x="1170" y="114" font-size="12" fill="#c9cede" font-weight="500" text-anchor="end" letter-spacing="0.12em">ZERO-COST INFRA</text>
+<rect x="30" y="156" width="1140" height="1" fill="url(#rule)"/>
+<polyline points="30,166.0 34,167.6 38,169.0 42,169.8 46,170.0 50,169.9 54,169.4 58,169.1 62,169.0 66,169.3 70,169.9 74,170.7 78,171.4 82,171.7 86,171.5 90,170.7 94,169.4 98,167.9 102,166.5 106,165.4 110,164.8 114,164.7 118,164.9 122,165.1 126,165.1 130,164.7 134,163.8 138,162.7 142,161.5 146,160.5 150,160.1 154,160.2 158,160.9 162,162.0 166,163.1 170,164.1 174,164.7 178,164.8 182,164.6 186,164.4 190,164.2 194,164.5 198,165.3 202,166.5 206,167.9 210,169.3 214,170.4 218,170.9 222,170.8 226,170.3 230,169.5 234,168.8 238,168.3 242,168.3 246,168.7 250,169.2 254,169.7 258,169.8 262,169.4 266,168.5 270,167.2 274,165.7 278,164.3 282,163.4 286,163.0 290,163.1 294,163.5 298,164.0 302,164.3 306,164.2 310,163.6 314,162.8 318,161.9 322,161.3 326,161.1 330,161.5 334,162.4 338,163.7 342,165.0 346,166.1 350,166.7 354,166.8 358,166.6 362,166.2 366,166.0 370,166.1 374,166.7 378,167.6 382,168.8 386,169.9 390,170.7 394,170.9 398,170.5 402,169.7 406,168.6 410,167.7 414,167.0 418,166.9 422,167.1 426,167.5 430,167.9 434,168.0 438,167.6 442,166.7 446,165.5 450,164.2 454,163.0 458,162.3 462,162.1 466,162.5 470,163.2 474,163.9 478,164.4 482,164.6 486,164.3 490,163.7 494,163.0 498,162.5 502,162.5 506,163.0 510,164.1 514,165.4 518,166.7 522,167.7 526,168.2 530,168.2 534,167.9 538,167.3 542,166.9 546,166.8 550,167.1 554,167.9 558,168.8 562,169.7 566,170.2 570,170.2 574,169.6 578,168.6 582,167.4 586,166.3 590,165.6 594,165.4 598,165.6 602,166.0 606,166.5 610,166.7 614,166.4 618,165.7 622,164.6 626,163.4 630,162.5 634,162.0 638,162.1 642,162.7 646,163.6 650,164.5 654,165.2 658,165.5 662,165.4 666,164.9 670,164.3 674,163.9 678,163.9 682,164.4 686,165.4 690,166.7 694,167.9 698,168.7 702,169.1 706,169.0 710,168.4 714,167.6 718,167.0 722,166.7 726,166.9 730,167.4 734,168.2 738,168.9 742,169.2 746,169.1 750,168.4 754,167.3 758,166.1 762,165.0 766,164.3 770,164.2 774,164.5 778,165.0 782,165.6 786,165.9 790,165.8 794,165.2 798,164.4 802,163.4 806,162.6 810,162.3 814,162.6 818,163.3 822,164.4 826,165.4 830,166.2 834,166.6 838,166.5 842,166.0 846,165.4 850,165.0 854,165.0 858,165.4 862,166.3 866,167.4 870,168.5 874,169.2 878,169.4 882,169.1 886,168.3 890,167.4 894,166.6 898,166.2 902,166.2 906,166.6 910,167.3 914,167.9 918,168.2 922,168.0 926,167.3 930,166.3 934,165.1 938,164.1 942,163.5 946,163.5 950,163.9 954,164.6 958,165.3 962,165.8 966,165.8 970,165.4 974,164.6 978,163.8 982,163.2 986,163.0 990,163.4 994,164.2 998,165.3 1002,166.4 1006,167.2 1010,167.6 1014,167.4 1018,166.9 1022,166.2 1026,165.7 1030,165.5 1034,165.9 1038,166.6 1042,167.6 1046,168.5 1050,169.1 1054,169.2 1058,168.7 1062,167.8 1066,166.8 1070,165.9 1074,165.4 1078,165.4 1082,165.8 1086,166.4 1090,167.1 1094,167.4 1098,167.2 1102,166.6 1106,165.6 1110,164.5 1114,163.6 1118,163.1 1122,163.2 1126,163.8 1130,164.6 1134,165.5 1138,166.1 1142,166.2 1146,165.9 1150,165.2 1154,164.5 1158,163.9 1162,163.8 1166,164.2 1170,165.0" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.35"/>
+<rect x="30" y="176" width="150" height="2" fill="#a855f7" opacity="0.5"/>
+<rect x="190" y="176" width="90" height="2" fill="#ec4899" opacity="0.5"/>
+<rect x="290" y="176" width="220" height="2" fill="#60a5fa" opacity="0.5"/>
+<rect x="525" y="176" width="140" height="2" fill="#22d3ee" opacity="0.5"/>
+<rect x="680" y="176" width="70" height="2" fill="#34d399" opacity="0.5"/>
+<rect x="760" y="176" width="180" height="2" fill="#fbbf24" opacity="0.5"/>
+<g class="scan"><rect x="0" y="174" width="240" height="6" fill="url(#sweep)"/></g>
+<rect x="28" y="196" width="744" height="340" rx="4" fill="#0a0c14" stroke="#1c2035" stroke-width="1"/>
+<text x="42" y="215" font-size="8" fill="#4e5570" font-weight="500" text-anchor="start" letter-spacing="0.12em">LIVE PROJECT GRAPH</text><text x="758" y="215" font-size="8" fill="#4e5570" font-weight="400" text-anchor="end" letter-spacing="0.12em">15 SYSTEMS · 7 LANGUAGES</text><line x1="28" y1="226" x2="772" y2="226" stroke="#1c2035"/>
+<line x1="400" y1="360" x2="194.6" y2="332.9" stroke="#22d3ee" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="238.5" y2="281.7" stroke="#22d3ee" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="323.8" y2="248.7" stroke="#60a5fa" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="433.0" y2="244.0" stroke="#60a5fa" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="533.8" y2="267.9" stroke="#2dd4bf" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="606.7" y2="323.3" stroke="#22d3ee" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="598.0" y2="392.9" stroke="#60a5fa" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="537.9" y2="445.5" stroke="#22d3ee" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="446.4" y2="475.5" stroke="#fbbf24" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="342.8" y2="469.1" stroke="#60a5fa" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="246.8" y2="439.7" stroke="#22d3ee" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="188.3" y2="383.1" stroke="#34d399" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="310.0" y2="300.1" stroke="#fb923c" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="525.1" y2="323.8" stroke="#22d3ee" stroke-width="0.8" opacity="0.22"/>
+<line x1="400" y1="360" x2="400.0" y2="433.2" stroke="#ec4899" stroke-width="0.8" opacity="0.22"/>
+<line x1="238.5" y1="281.7" x2="323.8" y2="248.7" stroke="#4e5570" stroke-width="0.7" opacity="0.30" stroke-dasharray="2 4"/>
+<line x1="323.8" y1="248.7" x2="433.0" y2="244.0" stroke="#4e5570" stroke-width="0.7" opacity="0.30" stroke-dasharray="2 4"/>
+<line x1="606.7" y1="323.3" x2="598.0" y2="392.9" stroke="#4e5570" stroke-width="0.7" opacity="0.30" stroke-dasharray="2 4"/>
+<line x1="537.9" y1="445.5" x2="446.4" y2="475.5" stroke="#4e5570" stroke-width="0.7" opacity="0.30" stroke-dasharray="2 4"/>
+<line x1="537.9" y1="445.5" x2="342.8" y2="469.1" stroke="#4e5570" stroke-width="0.7" opacity="0.30" stroke-dasharray="2 4"/>
+<line x1="246.8" y1="439.7" x2="342.8" y2="469.1" stroke="#4e5570" stroke-width="0.7" opacity="0.30" stroke-dasharray="2 4"/>
+<circle cx="400" cy="360" r="46" fill="#a855f7" opacity="0.13" filter="url(#softglow)"/>
+<circle class="ring" cx="400" cy="360" r="30" fill="none" stroke="#a855f7" stroke-width="1"/>
+<circle cx="400" cy="360" r="30" fill="#05060a" stroke="#a855f7" stroke-width="1.2"/>
+<text x="400" y="359" font-size="10" fill="#ffffff" font-weight="700" text-anchor="middle" letter-spacing="0.16em">CORE</text>
+<text x="400" y="372" font-size="7" fill="#a855f7" font-weight="500" text-anchor="middle" letter-spacing="0.2em">STACK</text>
+<circle cx="194.6" cy="332.9" r="19" fill="#22d3ee" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:0.0s"/>
+<circle cx="194.6" cy="332.9" r="11" fill="#05060a" stroke="#22d3ee" stroke-width="1.2" filter="url(#glow)"/>
+<text x="194.5890038459008" y="336.1298978555277" font-size="8" fill="#22d3ee" font-weight="600" text-anchor="middle" letter-spacing="0.04em">01</text>
+<rect x="171.6" y="351.9298978555277" width="46.0" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="194.5890038459008" y="361.9298978555277" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">CHAIN</text>
+<circle cx="238.5" cy="281.7" r="19" fill="#22d3ee" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:0.6s"/>
+<circle cx="238.5" cy="281.7" r="11" fill="#05060a" stroke="#22d3ee" stroke-width="1.2" filter="url(#glow)"/>
+<text x="238.45779551062202" y="284.9494264861088" font-size="8" fill="#22d3ee" font-weight="600" text-anchor="middle" letter-spacing="0.04em">02</text>
+<rect x="207.3" y="300.7494264861088" width="62.4" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="238.45779551062202" y="310.7494264861088" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">PLACE·API</text>
+<circle cx="323.8" cy="248.7" r="19" fill="#60a5fa" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:1.2s"/>
+<circle cx="323.8" cy="248.7" r="11" fill="#05060a" stroke="#60a5fa" stroke-width="1.2" filter="url(#glow)"/>
+<text x="323.8074299445916" y="251.91096321759994" font-size="8" fill="#60a5fa" font-weight="600" text-anchor="middle" letter-spacing="0.04em">03</text>
+<rect x="292.6" y="267.71096321759995" width="62.4" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="323.8074299445916" y="277.71096321759995" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">PLACE·WEB</text>
+<circle cx="433.0" cy="244.0" r="19" fill="#60a5fa" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:1.8s"/>
+<circle cx="433.0" cy="244.0" r="11" fill="#05060a" stroke="#60a5fa" stroke-width="1.2" filter="url(#glow)"/>
+<text x="432.99315375671677" y="247.18964669516188" font-size="8" fill="#60a5fa" font-weight="600" text-anchor="middle" letter-spacing="0.04em">04</text>
+<rect x="410.0" y="262.9896466951619" width="46.0" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="432.99315375671677" y="272.9896466951619" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">WALLET</text>
+<circle cx="533.8" cy="267.9" r="19" fill="#2dd4bf" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:2.4s"/>
+<circle cx="533.8" cy="267.9" r="11" fill="#05060a" stroke="#2dd4bf" stroke-width="1.2" filter="url(#glow)"/>
+<text x="533.8261212717716" y="271.0500416408031" font-size="8" fill="#2dd4bf" font-weight="600" text-anchor="middle" letter-spacing="0.04em">05</text>
+<rect x="510.8" y="286.8500416408031" width="46.0" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="533.8261212717716" y="296.8500416408031" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">LOOP</text>
+<circle cx="606.7" cy="323.3" r="19" fill="#22d3ee" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:3.0s"/>
+<circle cx="606.7" cy="323.3" r="11" fill="#05060a" stroke="#22d3ee" stroke-width="1.2" filter="url(#glow)"/>
+<text x="606.6712646267385" y="326.457540469594" font-size="8" fill="#22d3ee" font-weight="600" text-anchor="middle" letter-spacing="0.04em">06</text>
+<rect x="581.1" y="342.257540469594" width="51.2" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="606.6712646267385" y="352.257540469594" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">MSG·API</text>
+<circle cx="598.0" cy="392.9" r="19" fill="#60a5fa" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:0.0s"/>
+<circle cx="598.0" cy="392.9" r="11" fill="#05060a" stroke="#60a5fa" stroke-width="1.2" filter="url(#glow)"/>
+<text x="598.014794389259" y="396.09590063253034" font-size="8" fill="#60a5fa" font-weight="600" text-anchor="middle" letter-spacing="0.04em">07</text>
+<rect x="572.4" y="411.89590063253036" width="51.2" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="598.014794389259" y="421.89590063253036" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">MSG·WEB</text>
+<circle cx="537.9" cy="445.5" r="19" fill="#22d3ee" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:0.6s"/>
+<circle cx="537.9" cy="445.5" r="11" fill="#05060a" stroke="#22d3ee" stroke-width="1.2" filter="url(#glow)"/>
+<text x="537.8858223313767" y="448.6892098454536" font-size="8" fill="#22d3ee" font-weight="600" text-anchor="middle" letter-spacing="0.04em">08</text>
+<rect x="506.7" y="464.4892098454536" width="62.4" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="537.8858223313767" y="474.4892098454536" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">DRAFT·API</text>
+<circle cx="446.4" cy="475.5" r="19" fill="#fbbf24" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:1.2s"/>
+<circle cx="446.4" cy="475.5" r="11" fill="#05060a" stroke="#fbbf24" stroke-width="1.2" filter="url(#glow)"/>
+<text x="446.44900395513616" y="478.70400325589463" font-size="8" fill="#fbbf24" font-weight="600" text-anchor="middle" letter-spacing="0.04em">09</text>
+<rect x="418.0" y="494.50400325589465" width="56.8" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="446.44900395513616" y="504.50400325589465" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">DRAFT·ML</text>
+<circle cx="342.8" cy="469.1" r="19" fill="#60a5fa" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:1.8s"/>
+<circle cx="342.8" cy="469.1" r="11" fill="#05060a" stroke="#60a5fa" stroke-width="1.2" filter="url(#glow)"/>
+<text x="342.83185604063476" y="472.2861824190541" font-size="8" fill="#60a5fa" font-weight="600" text-anchor="middle" letter-spacing="0.04em">10</text>
+<rect x="311.6" y="488.0861824190541" width="62.4" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="342.83185604063476" y="498.0861824190541" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">DRAFT·WEB</text>
+<circle cx="246.8" cy="439.7" r="19" fill="#22d3ee" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:2.4s"/>
+<circle cx="246.8" cy="439.7" r="11" fill="#05060a" stroke="#22d3ee" stroke-width="1.2" filter="url(#glow)"/>
+<text x="246.7911113762044" y="442.90566360113087" font-size="8" fill="#22d3ee" font-weight="600" text-anchor="middle" letter-spacing="0.04em">11</text>
+<rect x="221.2" y="458.7056636011309" width="51.2" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="246.7911113762044" y="468.7056636011309" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">MKT·API</text>
+<circle cx="188.3" cy="383.1" r="19" fill="#34d399" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:3.0s"/>
+<circle cx="188.3" cy="383.1" r="11" fill="#05060a" stroke="#34d399" stroke-width="1.2" filter="url(#glow)"/>
+<text x="188.26633310237528" y="386.3473020830018" font-size="8" fill="#34d399" font-weight="600" text-anchor="middle" letter-spacing="0.04em">12</text>
+<rect x="165.3" y="402.1473020830018" width="46.0" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="188.26633310237528" y="412.1473020830018" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">K3S</text>
+<circle cx="310.0" cy="300.1" r="19" fill="#fb923c" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:0.0s"/>
+<circle cx="310.0" cy="300.1" r="11" fill="#05060a" stroke="#fb923c" stroke-width="1.2" filter="url(#glow)"/>
+<text x="309.9762164717502" y="303.34601305948706" font-size="8" fill="#fb923c" font-weight="600" text-anchor="middle" letter-spacing="0.04em">13</text>
+<rect x="281.6" y="319.1460130594871" width="56.8" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="309.9762164717502" y="329.1460130594871" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">VEILGATE</text>
+<circle cx="525.1" cy="323.8" r="19" fill="#22d3ee" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:0.6s"/>
+<circle cx="525.1" cy="323.8" r="11" fill="#05060a" stroke="#22d3ee" stroke-width="1.2" filter="url(#glow)"/>
+<text x="525.0704746110576" y="327.0407815254658" font-size="8" fill="#22d3ee" font-weight="600" text-anchor="middle" letter-spacing="0.04em">14</text>
+<rect x="502.1" y="342.8407815254658" width="46.0" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="525.0704746110576" y="352.8407815254658" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">SOCIAL</text>
+<circle cx="400.0" cy="433.2" r="19" fill="#ec4899" opacity="0.14" filter="url(#softglow)" class="breathe" style="animation-delay:1.2s"/>
+<circle cx="400.0" cy="433.2" r="11" fill="#05060a" stroke="#ec4899" stroke-width="1.2" filter="url(#glow)"/>
+<text x="400.0" y="436.35999999999996" font-size="8" fill="#ec4899" font-weight="600" text-anchor="middle" letter-spacing="0.04em">15</text>
+<rect x="368.8" y="452.15999999999997" width="62.4" height="14" rx="2" fill="#05060a" stroke="#1c2035"/>
+<text x="400.0" y="462.15999999999997" font-size="7" fill="#c9cede" font-weight="500" text-anchor="middle" letter-spacing="0.08em">TAMERLOOP</text>
+<text x="42" y="524" font-size="7" fill="#4e5570" font-weight="400" text-anchor="0.14em" letter-spacing="0.12em">PRIVATE WORKSPACES — PRODUCT NAMES REDACTED AS ALPHA / BRAVO</text>
+<rect x="790" y="196" width="382" height="340" rx="4" fill="#0a0c14" stroke="#1c2035" stroke-width="1"/>
+<text x="804" y="215" font-size="8" fill="#4e5570" font-weight="500" text-anchor="start" letter-spacing="0.12em">ACTIVE PROJECT</text><text x="1158" y="215" font-size="8" fill="#4e5570" font-weight="400" text-anchor="end" letter-spacing="0.12em">01 / 15</text><line x1="790" y1="226" x2="1172" y2="226" stroke="#1c2035"/>
+<text x="806" y="252" font-size="7" fill="#34d399" font-weight="500" text-anchor="start" letter-spacing="0.12em">INFRA · LIVE</text>
+<text x="806" y="276" font-size="18" fill="#ffffff" font-weight="700" text-anchor="0.03em" letter-spacing="0.12em">PRODUCTION CLUSTER</text>
+<text x="806" y="300" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">CLOUD</text>
+<text x="1156" y="300" font-size="8" fill="#c9cede" font-weight="400" text-anchor="end" letter-spacing="0.12em">OCI FREE TIER · OKE</text>
+<text x="806" y="317" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">NODES</text>
+<text x="1156" y="317" font-size="8" fill="#c9cede" font-weight="400" text-anchor="end" letter-spacing="0.12em">ARM A1 · 4 OCPU · 24GB</text>
+<text x="806" y="334" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">EDGE</text>
+<text x="1156" y="334" font-size="8" fill="#c9cede" font-weight="400" text-anchor="end" letter-spacing="0.12em">TRAEFIK v3 · LET&apos;S ENCRYPT</text>
+<text x="806" y="349" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">SIGNAL ACTIVITY</text>
+<rect x="806" y="356" width="350" height="46" rx="3" fill="#05060a" stroke="#1c2035"/>
+<polyline points="814,379.0 817,378.2 820,377.4 823,376.6 826,375.9 829,375.2 832,374.5 835,373.9 838,373.3 841,372.8 844,372.4 847,372.0 850,371.7 853,371.5 856,371.3 859,371.2 862,371.2 865,371.2 868,371.3 871,371.4 874,371.5 877,371.7 880,371.9 883,372.1 886,372.3 889,372.6 892,372.8 895,373.0 898,373.2 901,373.4 904,373.5 907,373.6 910,373.7 913,373.8 916,373.8 919,373.8 922,373.8 925,373.8 928,373.8 931,373.8 934,373.7 937,373.7 940,373.7 943,373.7 946,373.7 949,373.8 952,373.9 955,374.0 958,374.2 961,374.4 964,374.7 967,375.0 970,375.4 973,375.8 976,376.3 979,376.8 982,377.4 985,377.9 988,378.5 991,379.1 994,379.8 997,380.4 1000,381.0 1003,381.6 1006,382.1 1009,382.7 1012,383.1 1015,383.6 1018,383.9 1021,384.3 1024,384.5 1027,384.7 1030,384.7 1033,384.8 1036,384.7 1039,384.6 1042,384.4 1045,384.1 1048,383.8 1051,383.4 1054,383.0 1057,382.5 1060,382.0 1063,381.5 1066,381.0 1069,380.5 1072,379.9 1075,379.4 1078,378.9 1081,378.5 1084,378.0 1087,377.6 1090,377.3 1093,377.0 1096,376.7 1099,376.5 1102,376.3 1105,376.2 1108,376.1 1111,376.0 1114,376.0 1117,376.0 1120,376.0 1123,376.1 1126,376.1 1129,376.2 1132,376.2 1135,376.3 1138,376.3 1141,376.3 1144,376.3 1147,376.2" fill="none" stroke="#c9cede" stroke-width="1.2" opacity="0.8"/>
+<circle cx="814" cy="379.0" r="2" fill="#ffffff"/>
+<circle cx="856" cy="371.3" r="2" fill="#ffffff"/>
+<circle cx="898" cy="373.2" r="2" fill="#ffffff"/>
+<circle cx="940" cy="373.7" r="2" fill="#ffffff"/>
+<circle cx="982" cy="377.4" r="2" fill="#ffffff"/>
+<circle cx="1024" cy="384.5" r="2" fill="#ffffff"/>
+<circle cx="1066" cy="381.0" r="2" fill="#ffffff"/>
+<circle cx="1108" cy="376.1" r="2" fill="#ffffff"/>
+<text x="806" y="410" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">STACK STATUS</text>
+<text x="806" y="427" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">CLUSTER</text>
+<rect x="864" y="419" width="234" height="9" rx="1.5" fill="#05060a" stroke="#1c2035"/>
+<rect x="865" y="420" width="232" height="7" rx="1" fill="#34d399" opacity="0.85"/>
+<text x="1156" y="427" font-size="7" fill="#c9cede" font-weight="400" text-anchor="end" letter-spacing="0.12em">ACTIVE</text>
+<text x="806" y="444" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">INGRESS</text>
+<rect x="864" y="436" width="234" height="9" rx="1.5" fill="#05060a" stroke="#1c2035"/>
+<rect x="865" y="437" width="232" height="7" rx="1" fill="#34d399" opacity="0.85"/>
+<text x="1156" y="444" font-size="7" fill="#c9cede" font-weight="400" text-anchor="end" letter-spacing="0.12em">TRAEFIK</text>
+<text x="806" y="461" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">TLS</text>
+<rect x="864" y="453" width="234" height="9" rx="1.5" fill="#05060a" stroke="#1c2035"/>
+<rect x="865" y="454" width="232" height="7" rx="1" fill="#34d399" opacity="0.85"/>
+<text x="1156" y="461" font-size="7" fill="#c9cede" font-weight="400" text-anchor="end" letter-spacing="0.12em">LE PROD</text>
+<text x="806" y="478" font-size="7" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">SERVICE</text>
+<rect x="864" y="470" width="234" height="9" rx="1.5" fill="#05060a" stroke="#1c2035"/>
+<rect x="865" y="471" width="104" height="7" rx="1" fill="#fbbf24" opacity="0.85"/>
+<text x="1156" y="478" font-size="7" fill="#c9cede" font-weight="400" text-anchor="end" letter-spacing="0.12em">DEPLOY</text>
+<rect x="806" y="494" width="350" height="24" rx="3" fill="#05060a" stroke="#1c2035"/>
+<circle class="blink" cx="820" cy="506" r="3.5" fill="#34d399"/>
+<text x="832" y="509" font-size="8" fill="#c9cede" font-weight="500" text-anchor="start" letter-spacing="0.12em">SHIPPING SERVICES</text>
+<text x="1150" y="509" font-size="7" fill="#fbbf24" font-weight="500" text-anchor="end" letter-spacing="0.12em">0 USD / MONTH</text>
+<rect x="28" y="550" width="1144" height="92" rx="4" fill="#0a0c14" stroke="#1c2035" stroke-width="1"/>
+<text x="42" y="569" font-size="8" fill="#4e5570" font-weight="500" text-anchor="start" letter-spacing="0.12em">THE DELIVERY LOOP</text><text x="1158" y="569" font-size="8" fill="#4e5570" font-weight="400" text-anchor="end" letter-spacing="0.12em">DESIGN · SHIP · OBSERVE · REPEAT</text><line x1="28" y1="580" x2="1172" y2="580" stroke="#1c2035"/>
+<circle cx="64" cy="608" r="9" fill="#22d3ee" opacity="0.18" filter="url(#softglow)"/>
+<circle cx="64" cy="608" r="4.5" fill="#22d3ee"/>
+<text x="78.0" y="611" font-size="8" fill="#c9cede" font-weight="600" text-anchor="start" letter-spacing="0.12em">SPEC</text>
+<text x="78.0" y="624" font-size="6.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">ISSUE · PR</text>
+<line x1="108" y1="608" x2="213" y2="608" stroke="#1c2035" stroke-width="1"/>
+<path d="M213,605 L218,608 L213,611" fill="none" stroke="#4e5570" stroke-width="1"/>
+<circle cx="227" cy="608" r="9" fill="#60a5fa" opacity="0.18" filter="url(#softglow)"/>
+<circle cx="227" cy="608" r="4.5" fill="#60a5fa"/>
+<text x="240.83333333333334" y="611" font-size="8" fill="#c9cede" font-weight="600" text-anchor="start" letter-spacing="0.12em">ARCH</text>
+<text x="240.83333333333334" y="624" font-size="6.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">CLEAN + HEX</text>
+<line x1="271" y1="608" x2="376" y2="608" stroke="#1c2035" stroke-width="1"/>
+<path d="M376,605 L381,608 L376,611" fill="none" stroke="#4e5570" stroke-width="1"/>
+<circle cx="390" cy="608" r="9" fill="#a855f7" opacity="0.18" filter="url(#softglow)"/>
+<circle cx="390" cy="608" r="4.5" fill="#a855f7"/>
+<text x="403.6666666666667" y="611" font-size="8" fill="#c9cede" font-weight="600" text-anchor="start" letter-spacing="0.12em">BUILD</text>
+<text x="403.6666666666667" y="624" font-size="6.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">GO · NEXT</text>
+<line x1="440" y1="608" x2="538" y2="608" stroke="#1c2035" stroke-width="1"/>
+<path d="M538,605 L544,608 L538,611" fill="none" stroke="#4e5570" stroke-width="1"/>
+<circle cx="552" cy="608" r="9" fill="#ec4899" opacity="0.18" filter="url(#softglow)"/>
+<circle cx="552" cy="608" r="4.5" fill="#ec4899"/>
+<text x="566.5" y="611" font-size="8" fill="#c9cede" font-weight="600" text-anchor="start" letter-spacing="0.12em">TEST</text>
+<text x="566.5" y="624" font-size="6.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">CI GATE</text>
+<line x1="597" y1="608" x2="701" y2="608" stroke="#1c2035" stroke-width="1"/>
+<path d="M701,605 L706,608 L701,611" fill="none" stroke="#4e5570" stroke-width="1"/>
+<circle cx="715" cy="608" r="9" fill="#fbbf24" opacity="0.18" filter="url(#softglow)"/>
+<circle cx="715" cy="608" r="4.5" fill="#fbbf24"/>
+<text x="729.3333333333334" y="611" font-size="8" fill="#c9cede" font-weight="600" text-anchor="start" letter-spacing="0.12em">IMAGE</text>
+<text x="729.3333333333334" y="624" font-size="6.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">OCIR · ARM64</text>
+<line x1="765" y1="608" x2="864" y2="608" stroke="#1c2035" stroke-width="1"/>
+<path d="M864,605 L869,608 L864,611" fill="none" stroke="#4e5570" stroke-width="1"/>
+<circle cx="878" cy="608" r="9" fill="#34d399" opacity="0.18" filter="url(#softglow)"/>
+<circle cx="878" cy="608" r="4.5" fill="#34d399"/>
+<text x="892.1666666666667" y="611" font-size="8" fill="#c9cede" font-weight="600" text-anchor="start" letter-spacing="0.12em">DEPLOY</text>
+<text x="892.1666666666667" y="624" font-size="6.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">K8S · HELM</text>
+<line x1="934" y1="608" x2="1027" y2="608" stroke="#1c2035" stroke-width="1"/>
+<path d="M1027,605 L1032,608 L1027,611" fill="none" stroke="#4e5570" stroke-width="1"/>
+<circle cx="1041" cy="608" r="9" fill="#2dd4bf" opacity="0.18" filter="url(#softglow)"/>
+<circle cx="1041" cy="608" r="4.5" fill="#2dd4bf"/>
+<text x="1055.0" y="611" font-size="8" fill="#c9cede" font-weight="600" text-anchor="start" letter-spacing="0.12em">OBSERVE</text>
+<text x="1055.0" y="624" font-size="6.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">INGRESS · TLS</text>
+<rect x="28" y="656" width="1144" height="152" rx="4" fill="#0a0c14" stroke="#1c2035" stroke-width="1"/>
+<text x="42" y="675" font-size="8" fill="#4e5570" font-weight="500" text-anchor="start" letter-spacing="0.12em">PROJECT INDEX</text><text x="1158" y="675" font-size="8" fill="#4e5570" font-weight="400" text-anchor="end" letter-spacing="0.12em">PRIVATE · CODENAMED · NOT LINKED</text><line x1="28" y1="686" x2="1172" y2="686" stroke="#1c2035"/>
+<text x="48.0" y="710" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">01</text>
+<rect x="68.0" y="704" width="6" height="6" rx="1" fill="#22d3ee"/>
+<text x="82.0" y="710" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">alpha-chain</text>
+<text x="48.0" y="727" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">02</text>
+<rect x="68.0" y="721" width="6" height="6" rx="1" fill="#22d3ee"/>
+<text x="82.0" y="727" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">place-alpha-platform</text>
+<text x="48.0" y="744" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">03</text>
+<rect x="68.0" y="738" width="6" height="6" rx="1" fill="#60a5fa"/>
+<text x="82.0" y="744" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">place-alpha-front</text>
+<text x="48.0" y="761" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">04</text>
+<rect x="68.0" y="755" width="6" height="6" rx="1" fill="#60a5fa"/>
+<text x="82.0" y="761" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">wallet-alpha-front</text>
+<text x="48.0" y="778" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">05</text>
+<rect x="68.0" y="772" width="6" height="6" rx="1" fill="#2dd4bf"/>
+<text x="82.0" y="778" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">alpha-loop</text>
+<text x="416.0" y="710" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">06</text>
+<rect x="436.0" y="704" width="6" height="6" rx="1" fill="#22d3ee"/>
+<text x="450.0" y="710" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">messenger-platform</text>
+<text x="416.0" y="727" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">07</text>
+<rect x="436.0" y="721" width="6" height="6" rx="1" fill="#60a5fa"/>
+<text x="450.0" y="727" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">messenger-front</text>
+<text x="416.0" y="744" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">08</text>
+<rect x="436.0" y="738" width="6" height="6" rx="1" fill="#22d3ee"/>
+<text x="450.0" y="744" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">draft-bravo-platform</text>
+<text x="416.0" y="761" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">09</text>
+<rect x="436.0" y="755" width="6" height="6" rx="1" fill="#fbbf24"/>
+<text x="450.0" y="761" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">draft-bravo-model</text>
+<text x="416.0" y="778" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">10</text>
+<rect x="436.0" y="772" width="6" height="6" rx="1" fill="#60a5fa"/>
+<text x="450.0" y="778" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">draft-bravo-front</text>
+<text x="784.0" y="710" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">11</text>
+<rect x="804.0" y="704" width="6" height="6" rx="1" fill="#22d3ee"/>
+<text x="818.0" y="710" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">marketing-bravo-platform</text>
+<text x="784.0" y="727" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">12</text>
+<rect x="804.0" y="721" width="6" height="6" rx="1" fill="#34d399"/>
+<text x="818.0" y="727" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">k3s-migration</text>
+<text x="784.0" y="744" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">13</text>
+<rect x="804.0" y="738" width="6" height="6" rx="1" fill="#fb923c"/>
+<text x="818.0" y="744" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">VeilGate</text>
+<text x="784.0" y="761" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">14</text>
+<rect x="804.0" y="755" width="6" height="6" rx="1" fill="#22d3ee"/>
+<text x="818.0" y="761" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">social-automation</text>
+<text x="784.0" y="778" font-size="7.5" fill="#4e5570" font-weight="400" text-anchor="start" letter-spacing="0.12em">15</text>
+<rect x="804.0" y="772" width="6" height="6" rx="1" fill="#ec4899"/>
+<text x="818.0" y="778" font-size="8" fill="#c9cede" font-weight="400" text-anchor="0.03em" letter-spacing="0.12em">TamerLoop</text>
+<text x="48" y="794" font-size="7" fill="#4e5570" font-weight="400" text-anchor="0.14em" letter-spacing="0.12em">PUBLIC WORK LIVES AT GITHUB.COM/JSEONGWON — 44 OPEN REPOSITORIES</text>
+<text x="1152" y="794" font-size="7" fill="#4e5570" font-weight="400" text-anchor="end" letter-spacing="0.14em">GENERATED 2026-09-20</text>
+</svg>
